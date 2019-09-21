@@ -1,0 +1,19 @@
+html, body{}
+
+#header{
+    margin-bottom: 30px;
+}
+
+#nav{
+
+}
+
+#sidebar{
+    background-color: #dddddd;
+}
+
+#footer{
+    background-color: #d6d8d9;
+    margin-top: 75px;
+    padding: 15px;
+}
