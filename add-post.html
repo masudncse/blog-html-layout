@@ -8,175 +8,219 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Hello, world!</title>
 </head>
 <body>
 
 <main>
+    <!--header-start-->
     <header id="header">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-8">
                     <img src="img/logo.png" width="120" alt="">
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 text-right d-flex align-items-center justify-content-center">
                     <h6>21, September 2019 | 05:00 PM</h6>
-                </div>
-                <div class="col-md-4">
-                    <form class="form-inline mt-2 mt-md-0">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
                 </div>
             </div>
         </div>
     </header>
+    <!--header-end-->
 
-    <div class="container" id="nav">
-        <div class="row">
-            <div class="col-md-12">
-                <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-                    <a class="navbar-brand" href="#">Navbar</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+    <!--nav-start-->
+    <div id="nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                        <a class="navbar-brand" href="#">Navbar</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
 
-                    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
-                                   aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                                <div class="dropdown-menu" aria-labelledby="dropdown01">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
-                            </li>
-                        </ul>
-                        <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-                        </form>
-                    </div>
-                </nav>
+                        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Link</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#" tabindex="-1"
+                                       aria-disabled="true">Disabled</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                                       aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="text" placeholder="Search"
+                                       aria-label="Search">
+                                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </nav>
+                </div>
             </div>
         </div>
     </div>
+    <!--nav-end-->
 
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <div id="sidebar">
-                        <div class="sidebar-sticky">
-                            <ul class="nav flex-column">
-                                <li class="nav-item">
-                                    <a class="nav-link active" href="#">
-                                        Dashboard <span class="sr-only">(current)</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">
-                                        Orders
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">
-                                        Products
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">
-                                        Customers
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">
-                                        Reports
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">
-                                        Integrations
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+    <!--container-start-->
+    <div class="container">
+        <div class="row">
+            <!--sidebar-start-->
+            <div class="col-md-3">
+                <div id="sidebar">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action active">
+                            <i class="fa fa-list-alt"></i>&nbsp;&nbsp;Manage Categories
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <i class="fa fa-sticky-note-o"></i>&nbsp;&nbsp;Manage Posts
+                        </a>
                     </div>
                 </div>
-                <div class="col-md-9">
-                    <div id="content">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <form>
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail1">Email address</label>
-                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="exampleInputPassword1">Password</label>
-                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                                    </div>
-                                    <div class="form-group form-check">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                                    </div>
-                                    <button type="submit" class="btn btn-primary">Submit</button>
-                                </form>
-                            </div>
-
-                            <div class="col-md-12">
-                                <table class="table">
-                                    <thead>
-                                    <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">First</th>
-                                        <th scope="col">Last</th>
-                                        <th scope="col">Handle</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td>Jacob</td>
-                                        <td>Thornton</td>
-                                        <td>@fat</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td>Larry</td>
-                                        <td>the Bird</td>
-                                        <td>@twitter</td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
+            <!--sidebar-end-->
+
+            <!--content-start-->
+            <div class="col-md-9">
+                <div id="content">
+                    <div class="row">
+                        <!--breadcrumb-start-->
+                        <div class="col-md-12 mb-4">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <h3>MANAGE POSTS</h3>
+                                </div>
+                                <div class="col-md-4">
+                                    <nav aria-label="breadcrumb">
+                                        <ol class="breadcrumb mb-0">
+                                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                            <li class="breadcrumb-item active" aria-current="page">Posts</li>
+                                        </ol>
+                                    </nav>
+                                </div>
+                                <div class="col-md-12">
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+                        <!--breadcrumb-end-->
+                        <div class="col-md-12 mb-5">
+                            <form>
+                                <div class="form-group">
+                                    <label>Select Category</label>
+                                    <select name="" class="form-control">
+                                        <option value="">Business</option>
+                                        <option value="">Sports</option>
+                                        <option value="">Lifestyle</option>
+                                        <option value="">Showbiz</option>
+                                        <option value="">Showbiz</option>
+                                        <option value="">Health</option>
+                                        <option value="">Science</option>
+                                        <option value="">Travel</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Post Title</label>
+                                    <input type="email" class="form-control" placeholder="Enter your title">
+                                </div>
+                                <div class="form-group">
+                                    <label>Post Content</label>
+                                    <textarea name="" cols="30" class="form-control" rows="5" placeholder="Enter your content"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label>Image</label>
+                                    <input type="file" class="form-control">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button type="button" class="btn btn-warning">Add New</button>
+                                <button type="button" class="btn btn-secondary">Reset</button>
+                            </form>
+                        </div>
+                        <div class="col-md-12">
+                            <table class="table table-bordered">
+                                <caption>
+                                    All Posts
+                                    <form class="form-inline float-right">
+                                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Filter</button>
+                                    </form>
+                                </caption>
+                                <thead class="thead-light">
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Category</th>
+                                    <th scope="col">Title</th>
+                                    <th scope="col">Content</th>
+                                    <th scope="col">Image</th>
+                                    <th scope="col" width="120">Actions</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Lorem</td>
+                                    <td>Lorem ipsum.</td>
+                                    <td>Lorem ipsum dolor sit amet.</td>
+                                    <td><img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201907/Assam_flood_pic-770x433.png?uxAYedaocl4FgqbJ7m4ArbmH073X6xtF" width="100" class="img-thumbnail" alt=""></td>
+                                    <td>
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-info btn-sm">Edit</button>
+                                            <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Lorem</td>
+                                    <td>Lorem ipsum.</td>
+                                    <td>Lorem ipsum dolor sit amet.</td>
+                                    <td><img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201907/Assam_flood_pic-770x433.png?uxAYedaocl4FgqbJ7m4ArbmH073X6xtF" width="100" class="img-thumbnail" alt=""></td>
+                                    <td>
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-info btn-sm">Edit</button>
+                                            <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Lorem</td>
+                                    <td>Lorem ipsum.</td>
+                                    <td>Lorem ipsum dolor sit amet.</td>
+                                    <td><img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201907/Assam_flood_pic-770x433.png?uxAYedaocl4FgqbJ7m4ArbmH073X6xtF" width="100" class="img-thumbnail" alt=""></td>
+                                    <td>
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-info btn-sm">Edit</button>
+                                            <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--content-end-->
         </div>
-    </section>
+    </div>
+    <!--container-end-->
 
     <footer>
         <div class="container">

@@ -1,15 +1,35 @@
-html, body{}
+html, body{
+    height: 100%;
+    width: 100%;
+}
 
 #header{
-    margin-bottom: 30px;
+    line-height: 110px;
+    margin-bottom: 10px;
 }
 
 #nav{
-
+    margin-bottom: 30px;
 }
 
 #sidebar{
-    background-color: #dddddd;
+
+}
+
+#content .image-height{
+    height: 200px;
+}
+#content .image-height img{
+    height: auto;
+    max-height: 100%;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#content .table caption{
+    caption-side: top;
 }
 
 #footer{
