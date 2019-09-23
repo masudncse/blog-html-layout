@@ -32,8 +32,24 @@ html, body{
     caption-side: top;
 }
 
+.contact .contact-banner{
+    position: relative;
+}
+
+.contact .contact-banner h3.title{
+    position: absolute;
+    top: 140px;
+    left: 20px;
+    color: #ff5722;
+    font-weight: bold;
+    background-color: #fbfbfb;
+    font-size: 35px;
+    text-shadow: 2px 2px #00000052;
+    padding: 5px;
+}
+
 #footer{
-    background-color: #d6d8d9;
-    margin-top: 75px;
-    padding: 15px;
+background-color: #d6d8d9;
+margin-top: 75px;
+padding: 15px;
 }
